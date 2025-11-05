@@ -452,3 +452,27 @@ ul li {
   font-variation-settings:
     "wdth" 100;
 }
+
+footer {
+  text-align: center;
+  font-family: "Inconsolata", monospace;
+  font-optical-sizing: auto;
+  font-weight: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+  display: inline-block;
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+  text-align: center;
+  border: #202036 solid 2.5px;
+  margin-top: 2.5%;
+}
+
+#FTR-COL-1, .FTR-COL-2 {
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  float: left;
+  width: 33.33%;
+}
