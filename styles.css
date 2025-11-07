@@ -59,7 +59,11 @@
 }
 
 body {
-  background-color: #E5E5E5;
+  background-image: url('https://github.com/taxmalalas0001/oreonmc-site/blob/main/Pictures/MCBackground.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 h1, h2, h3, h4, h5, h6 {
