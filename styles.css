@@ -60,6 +60,11 @@
 
 body {
   background-color: #525252;
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://github.com/taxmalalas0001/oreonmc-site/blob/main/Pictures/MCBackground.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -198,13 +203,11 @@ button:active::after {
   background: #000;
 }
 
-
 @keyframes barberpole {
   100% {
     background-position: 50% 50%;
   }
 }
-
 
 .rainbow-marker-loader {
   height:4rem;
@@ -250,36 +253,16 @@ button:active::after {
 }
 
 @keyframes move-marker{
-  10%{
-    transform: translate(5%, 100%) rotate(2.5deg);
-  }
-  20%{
-    transform: translate(20%, 0) rotate(-5deg);
-  }
-  30%{
-    transform: translate(30%, 100%) rotate(2.5deg);
-  }  
-  40%{
-    transform: translate(40%, 0) rotate(-5deg);
-  } 
-  50%{
-    transform: translate(50%, 100%) rotate(2.5deg);
-  }   
-  60%{
-    transform: translate(60%, 0) rotate(-5deg);
-  }   
-  70%{
-    transform: translate(70%, 100%) rotate(2.5deg);
-  }  
-  80%{
-    transform: translate(80%, 0) rotate(-5deg);
-  }  
-  90%{
-    transform: translate(90%, 100%) rotate(2.5deg);
-  }  
-  100%{
-    transform: translate(100%, 0) rotate(-5deg);
-  }   
+  10%{ transform: translate(5%, 100%) rotate(2.5deg); }
+  20%{ transform: translate(20%, 0) rotate(-5deg); }
+  30%{ transform: translate(30%, 100%) rotate(2.5deg); }  
+  40%{ transform: translate(40%, 0) rotate(-5deg); } 
+  50%{ transform: translate(50%, 100%) rotate(2.5deg); }   
+  60%{ transform: translate(60%, 0) rotate(-5deg); }   
+  70%{ transform: translate(70%, 100%) rotate(2.5deg); }  
+  80%{ transform: translate(80%, 0) rotate(-5deg); }  
+  90%{ transform: translate(90%, 100%) rotate(2.5deg); }  
+  100%{ transform: translate(100%, 0) rotate(-5deg); }   
 }
 
 @keyframes rainbow-fill{
@@ -434,45 +417,4 @@ ul li {
 
 #SECT1 {
   background-color: white;
-  border-radius: 50px;
-  width: 50%;
-  margin: 0 auto;
-  text-align: center;
-  padding-bottom: 2.5%;
-  padding-top: 2.5%;
-  box-shadow: 0px 0px 2.5px 5.75px rgba(0, 0, 0, 0.25);
-}
-
-#SECT1 ul {
-  text-align: left;
-  font-family: "Inconsolata", monospace;
-  font-optical-sizing: auto;
-  font-weight: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-
-footer {
-  text-align: center;
-  font-family: "Inconsolata", monospace;
-  font-optical-sizing: auto;
-  font-weight: auto;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-  display: inline-block;
-  background-color: white;
-  width: 100%;
-  border-radius: 10px;
-  text-align: center;
-  border: #202036 solid 2.5px;
-  margin-top: 2.5%;
-}
-
-#FTR-COL-1, .FTR-COL-2 {
-  margin-top: 2.5%;
-  margin-bottom: 2.5%;
-  float: left;
-  width: 33.33%;
 }
